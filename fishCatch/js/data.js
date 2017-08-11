@@ -1,0 +1,150 @@
+	//游戏配置
+	var gameData = {
+		battery : {
+			cannon : ['cannon1.png','cannon2.png','cannon3.png','cannon4.png','cannon5.png','cannon6.png','cannon7.png'],
+			bullet : ['bullet1.png','bullet2.png','bullet3.png','bullet4.png','bullet5.png','bullet6.png','bullet7.png'],
+			bulletDis : [
+							{
+							   'img':'web1.png',
+							   'scale' : 43,
+							   'power' : 1,
+							},
+							{
+							   'img':'web2.png',
+							   'scale' : 54,
+							   'power' : 1.1,
+							},
+							{
+							   'img':'web3.png',
+							   'scale' : 61,
+							   'power' : 1.2,
+							},
+							{
+							   'img':'web4.png',
+							   'scale' : 86,
+							   'power' : 1.2,
+							},
+							{
+							   'img':'web5.png',
+							   'scale' : 76,
+							   'power' : 1.3,
+							},
+							{
+							   'img':'web6.png',
+							   'scale' : 90,
+							   'power' : 1.4,
+							},
+							{
+							   'img':'web7.png',
+							   'scale' : 110,
+							   'power' : 1.5
+							},
+						]
+		},
+		fish : [
+			{
+				'img' : 'fish1.png',
+				'class'	: 8,
+				'speed' : 14000,
+				'degree' : 36,
+				'value' : 10,
+				'gold' : 'glod-1.png',
+			},
+			{
+				'img' : 'fish2.png',
+				'class'	: 8,
+				'speed' : 20000,
+				'degree' : 30,
+				'value' : 20,
+				'gold' : 'glod-2.png',
+			},
+			{
+				'img' : 'fish3.png',
+				'class'	: 8,
+				'speed' : 25000,
+				'degree' : 26,
+				'value' : 30,
+				'gold' : 'glod-3.png',
+			},
+			{
+				'img' : 'fish4.png',
+				'class'	: 8,
+				'speed' : 23000,
+				'degree' : 23,
+				'value' : 40,
+				'gold' : 'glod-4.png',
+			},
+			{
+				'img' : 'fish5.png',
+				'class'	: 8,
+				'speed' : 20000,
+				'degree' : 20,
+				'value' : 50,
+				'gold' : 'glod-5.png',
+			},
+			{
+				'img' : 'fish6.png',
+				'class'	: 12,
+				'speed' : 15000,
+				'degree' : 18,
+				'value' : 60,
+				'gold' : 'glod-6.png',
+			},
+			{
+				'img' : 'fish7.png',
+				'class'	: 10,
+				'speed' : 18000,
+				'degree' : 16,
+				'value' : 80,
+				'gold' : 'glod-7.png',
+			},
+			{
+				'img' : 'fish8.png',
+				'class'	: 12,
+				'speed' : 21000,
+				'degree' : 14,
+				'value' : 100,
+				'gold' : 'glod-8.png',
+			},
+			{
+				'img' : 'fish9.png',
+				'class'	: 12,
+				'speed' : 18000,
+				'degree' : 12,
+				'value' : 150,
+				'gold' : 'glod-9.png',
+			},
+			{
+				'img' : 'fish10.png',
+				'class'	: 10,
+				'speed' : 20000,
+				'degree' : 6,
+				'value' : 180,
+				'gold' : 'glod-10.png',
+			},
+			{
+				'img' : 'fish11.png',
+				'class'	: 10,
+				'speed' : 18000,
+				'degree' : 4,
+				'value' : 250,
+				'gold' : 'glod-11.png',
+			},
+			{
+				'img' : 'shark1.png',
+				'class'	: 12,
+				'speed' : 28000,
+				'degree' : 2,
+				'value' : 300,
+				'gold' : 'glod-13.png',
+			},
+			{
+				'img' : 'shark2.png',
+				'class'	: 12,
+				'speed' : 30000,
+				'degree' : 1,
+				'value' : 600,
+				'gold' : 'glod-14.png',
+			},
+		]
+	}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title>Document</title>
+<link rel="stylesheet" type='text/css' href='css/css.css'/>
+<script src='plug-in/jquery-2.2.0.min.js'></script>
+</head>
+<body>
+<div class='game-wrapper'>
+	<div id='game-fishMan'>
+		<div class='fishMan-basic'>
+			<div class='basic-battery'></div>
+			<div class='basic-plus'></div>
+			<div class='basic-add'></div>
+			<div class='basic-score'>200</div>
+			<div class='basic-line'></div>
+		</div>
+		<div class='fishMan-fish'></div>
+		<div class='fishMan-catchAll'></div>
+		<audio id = 'audio-bullet' src="audio/bullet.mp3"></audio>
+		<audio id = 'audio-glod' src="audio/gold.mp3"></audio>
+		<audio id = 'audio-bg' src="audio/bgsound.mp3" autoplay='autoplay' loop='loop'></audio>
+	</div>
+</div>
+<script src='js/data.js'></script>
+<script src='js/catch.js'></script>
+<script>
+var $fishMan = $('#game-fishMan');
+$fishMan.game($fishMan,{
+	'basic' : {
+		'basic' : '.fishMan-basic',
+		'battery' : '.basic-battery',
+		'add' : '.basic-add',
+		'plus' : '.basic-plus',
+		'score' : '.basic-score',
+		'line' : '.basic-line',
+		'catchAll' : '.fishMan-catchAll',
+		'audio' : {
+					'bullet': 'audio-bullet',
+					'gold' : 'audio-glod',
+				}
+	},
+	'fish' : {
+		'wrapper' : '.fishMan-fish'
+	}
+});
+</script>
+</body>
+</html>
